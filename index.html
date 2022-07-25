@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="https://img.icons8.com/color/96/000000/hand.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600&family=Poppins:wght@300;400;500;600;700;900&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width">
+    <title>Rock Paper Scissors</title>
+    <link href="app/scss/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="buttons">
+            <button class="rpsButton" value="Rock" title="Select Rock"><img
+                    src="https://img.icons8.com/color/96/000000/hand-rock.png" class="imgs"></button>
+            <button class="rpsButton" value="Paper" title="Select Paper"><img
+                    src="https://img.icons8.com/color/96/000000/hand.png" class="imgs"></button>
+            <button class="rpsButton" value="Scissors" title="Select Scissors"><img
+                    src="https://img.icons8.com/color/96/000000/hand-scissors.png" class="imgs"></button>
+        </div>
+        <div class="resultContainer">
+            <div id="player-score" title="Your Score"></div>
+            <div id="hands" title="The Choices"></div>
+            <div id="result" title="The Result"></div>
+            <button id='endGameButton'><img src="https://img.icons8.com/ios-filled/50/000000/recurring-appointment.png"
+                    class="imgs" title="Click to Reset" /></button>
+        </div>
+    </div>
+
+    <script src="app/js/script.js"></script>
+</body>
+
+</html>
