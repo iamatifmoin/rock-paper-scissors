@@ -37,13 +37,13 @@ function showResult( score, playerChoice, computerChoice )
   switch ( score )
   {
     case -1:
-      result.innerText = `You Lose!`
+      result.innerText = `Result: You Lose!`
       break;
     case 0:
-      result.innerText = `It's a Draw!`
+      result.innerText = `Result: It's a Draw!`
       break;
     case 1:
-      result.innerText = `You Win!`
+      result.innerText = `Result: You Win!`
       break;
   }
 
